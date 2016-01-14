@@ -53,7 +53,7 @@ vector<Equery> eq(1000);
 string cadena="",param="",line="",rn_actual="",qn_actual="";
 unordered_map<string,string> dicc_stopwords;  ///Diccionario de palavras sem importância
 unordered_map<string,string> dicc_sig;
-int NorM = 400;     //Diccionario para os signos
+int NorM = 100;     //Diccionario para os signos
 unordered_map<int,vector<Equery>> dicc_query; //Diccionario de query
 unordered_map<int,vector<Equery>>::iterator itequery;
 
@@ -142,6 +142,8 @@ void map_cfquery()
              posq++;
           }
          arquivo.close();
+         NorM = NorM*4;
+
 
 }
 

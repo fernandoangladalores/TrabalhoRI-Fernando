@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1452733288 source:d:\codeblock proy\diccionario\main.cpp
+1452752905 source:d:\codeblock proy\diccionario\main.cpp
 	<map>
 	<iostream>
 	<fstream>
@@ -26,7 +26,41 @@
 	<string.h>
 	<string>
 
-1452733289 d:\codeblock proy\diccionario\mapcfquery.h
+1452752853 d:\codeblock proy\diccionario\mapcfquery.h
+	<map>
+	<iostream>
+	<fstream>
+	<cassert>
+	<cstdlib>
+	<unordered_map>
+	<string.h>
+	<string>
+	<stdio.h>
+	<math.h>
+	<sstream>
+	<algorithm>
+	<vector>
+
+1452752905 source:c:\users\mysto\desktop\trabalho\main.cpp
+	<map>
+	<iostream>
+	<fstream>
+	<cassert>
+	<cstdlib>
+	<unordered_map>
+	<string.h>
+	<string>
+	<stdio.h>
+	<math.h>
+	<sstream>
+	<algorithm>
+	<vector>
+	"mapcfquery.h"
+	<time.h>
+	<stdio.h>
+	<dos.h>
+
+1452752853 c:\users\mysto\desktop\trabalho\mapcfquery.h
 	<map>
 	<iostream>
 	<fstream>
